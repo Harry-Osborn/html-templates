@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Horizontal Navigation Bar</title>
+  <!-- Include the Tailwind CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Include the Google Font - 'Poppins' -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-poppins">
+
+  <!-- Navigation Bar -->
+  <div class="bg-yellow-500 p-2">
+    <div class="flex items-center justify-between">
+      <!-- justify-between: Distributes the flex items along the main axis (horizontally) with space between them. -->
+      <!-- items-center: Aligns the flex items along the cross-axis (vertically) at the center. -->
+
+      <!-- Logo or Branding -->
+      <a href="#" class="flex items-center text-2xl font-bold text-black">
+        <div class="bg-white h-8 w-8 rounded-full mr-2"></div>
+        Your Brand
+      </a>
+
+      <!-- Navigation Links -->
+      <div class="flex space-x-4">
+        <a href="#" class="hover:bg-red-500 px-4 py-2 rounded transition duration-300">Home</a>
+        <a href="#" class="hover:bg-red-500 px-4 py-2 rounded transition duration-300">About</a>
+        <a href="#" class="hover:bg-red-500 px-4 py-2 rounded transition duration-300">Services</a>
+        <a href="#" class="hover:bg-red-500 px-4 py-2 rounded transition duration-300">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Goes Here -->
+
+</body>
+</html>
